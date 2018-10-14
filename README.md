@@ -1,3 +1,6 @@
+# Starting the Game
+Run `tetris.py` to start the game 
+
 # Controls
 > **Q** to quit the game at any time
 

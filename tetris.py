@@ -175,7 +175,7 @@ surface = pygame.display.set_mode((window_width, window_height))
 block_size = 18
 pygame.display.set_caption('Tetris')
 fps_clock = pygame.time.Clock()
-pygame.mixer.music.load('music/level1.mp3')
+pygame.mixer.music.load('/Users/Donovan/Desktop/References/script/Tetromino/music/level1.mp3')
 pygame.mixer.music.set_volume(0.3)
 pygame.mixer.music.play(-1, 0.0)
 
@@ -184,7 +184,7 @@ frame_counter = 30
 fps = 0
 block_ticks = 10
 block_clock = 0
-checkpoint = 40
+checkpoint = 25
 counter = 0
 score = 0
 
