@@ -5,7 +5,9 @@ import sys
 import random
 import sets
 
+# TODO hard drop highlight
 # TODO add highlight to show hard drop location
+# TODO make a Time display
 
 window_width = 800
 window_height = 650
@@ -175,7 +177,8 @@ surface = pygame.display.set_mode((window_width, window_height))
 block_size = 18
 pygame.display.set_caption('Tetris')
 fps_clock = pygame.time.Clock()
-pygame.mixer.music.load('/Users/Donovan/Desktop/References/script/Tetromino/music/level1.mp3')
+# pygame.mixer.music.load('/Users/Donovan/Desktop/References/script/Tetromino/music/level1.mp3')
+pygame.mixer.music.load('./music/level1.mp3')
 pygame.mixer.music.set_volume(0.3)
 pygame.mixer.music.play(-1, 0.0)
 
